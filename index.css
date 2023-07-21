@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+#main{
+    display: flex;
+    height:100vh;
+    width: 100%;
+    background-color:#3c6382;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville';
+
+}
+
+#navBar{
+    background-color: #a4b0be;
+    color: black;
+    height: 70px;
+    width:100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 500;
+  
+}
+
+#footer{
+    background-color: #a4b0be;
+    color: black;
+    height: 70px;
+    width:100%;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+  
+}
+
+.box{
+    width: 600px;
+    min-height: 500px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+#items{
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid rgb(178, 104, 248);
+   outline: 0;
+   font-weight: 400;
+   
+
+}
+
+#to-do-box {
+    position: relative;
+    margin-top: 10px;
+    list-style: none;
+    background-color: #3f6685;
+    color: rgb(223, 232, 232);
+    padding: 5px;
+}
+
+#to-do-box li {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+   
+    align-items: center;
+   border-radius: 5px;
+   padding-right: 10px;
+   user-select: none;
+   
+   
+}
+
+#to-do-box button {
+    position: absolute;
+    height: 20px;
+    width: 30px;
+    top: 5px;
+    right: 5px;
+    background-color: aliceblue;
+   cursor: pointer;
+}
+
+#to-do-box button:hover{
+    background-color: black;
+}
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: cadetblue !important;
+}
+
